@@ -12,19 +12,18 @@ There is no one element in this array that can be removed in order to get a stri
 For sequence = [1, 3, 2], the output should be
 solution(sequence) = true.
 
-You can remove 3 from the array to get the strictly increasing sequence [1, 2]. Alternately, you can remove 2 to get the strictly increasing sequence [1, 3]. */ 
+You can remove 3 from the array to get the strictly increasing sequence [1, 2]. Alternately, you can remove 2 to get the strictly increasing sequence [1, 3]. */
 
 function solution(sequence) {
   let counter = 0;
-     for (let i = 0; i < sequence.length; i++) { 
-       if (sequence[i] >= sequence[i+1]){
-           counter++; 
-           if(i !== 0 && sequence[i] >= sequence[i+2]){
-               if(sequence[i-1] >= sequence[i+1])
-                   return false;
-           }
-       }
-   } 
-   return counter < 2;
- }
- 
+  for (let i = 0; i < sequence.length; i++) {
+    if (sequence[i] >= sequence[i + 1]) {
+      counter++;
+      if (i !== 0 && sequence[i] >= sequence[i + 2]) {
+        if (sequence[i - 1] >= sequence[i + 1])
+          return false;
+      }
+    }
+  }
+  return counter < 2;
+}

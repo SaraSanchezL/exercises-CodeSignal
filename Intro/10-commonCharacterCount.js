@@ -13,14 +13,14 @@ const s2 = "adcaa"
 function solution(s1, s2) {
   let counter = 0;
   const obj = s2.split("");
-for(str of s1){
- let i = obj.findIndex(s => s === str);
- if(i >= 0){
-   counter++;
-   obj.splice(i, 1);
- }
-}
-return counter;
+  for (str of s1) {
+    let i = obj.findIndex(s => s === str);
+    if (i >= 0) {
+      counter++;
+      obj.splice(i, 1);
+    }
+  }
+  return counter;
 }
 
 console.log(solution(s1, s2));

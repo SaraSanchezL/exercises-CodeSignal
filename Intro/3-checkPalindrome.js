@@ -12,11 +12,11 @@ solution(inputString) = true. */
 
 function solution(inputString) {
   const inverted = inputString
-.split('')
-.reverse()
-.join('')
-const checkIfIsPalindromo = inverted === inputString;
+    .split('')
+    .reverse()
+    .join('')
+  const checkIfIsPalindromo = inverted === inputString;
 
-return checkIfIsPalindromo;
+  return checkIfIsPalindromo;
 
 }

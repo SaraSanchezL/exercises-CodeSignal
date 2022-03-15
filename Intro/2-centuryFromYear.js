@@ -5,8 +5,8 @@ Example
 For year = 1905, the output should be
 solution(year) = 20;
 For year = 1700, the output should be
-solution(year) = 17.*/ 
+solution(year) = 17.*/
 
 function solution(year) {
-  return Math.floor((year-1)/100) + 1;
+  return Math.floor((year - 1) / 100) + 1;
 }

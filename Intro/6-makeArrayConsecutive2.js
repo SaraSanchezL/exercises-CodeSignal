@@ -5,19 +5,18 @@ Example
 For statues = [6, 2, 3, 8], the output should be
 solution(statues) = 3.
 
-Ratiorg needs statues of sizes 4, 5 and 7. */ 
+Ratiorg needs statues of sizes 4, 5 and 7. */
 
 function solution(statues) {
-  let statuesNeeded = 0;
-     statues.sort((a, b) => {
-         return a - b;
-     })
-     for(let i = 0; i < statues.length; i++) {
-         if(statues[i + 1] - statues[i] > 1) {
-             statuesNeeded += statues[i + 1] - statues[i] - 1;
-         }
-     }
-     return statuesNeeded;
- 
- }
- 
+    let statuesNeeded = 0;
+    statues.sort((a, b) => {
+        return a - b;
+    })
+    for (let i = 0; i < statues.length; i++) {
+        if (statues[i + 1] - statues[i] > 1) {
+            statuesNeeded += statues[i + 1] - statues[i] - 1;
+        }
+    }
+    return statuesNeeded;
+
+}
