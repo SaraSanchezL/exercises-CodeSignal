@@ -5,4 +5,4 @@
 Link: https://app.codesignal.com/arcade
 
 - First block of exercises:
-  1.  Intro (8/60 tasks).
+  1.  Intro (10/60 tasks).
