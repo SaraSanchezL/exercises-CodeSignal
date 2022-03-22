@@ -1,8 +1,8 @@
 # Code Signal
 
-## Code Signal Arcade -> exercises solutions.
+## Code Signal Arcade -> logic problems solutions.
 
 Link: https://app.codesignal.com/arcade
 
-- First block of exercises:
-  1.  Intro (13/60 tasks).
+- First block of tasks:
+  1.  Intro (13/60).
