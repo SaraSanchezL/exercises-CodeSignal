@@ -4,8 +4,6 @@ Example
 
 For a = [-1, 150, 190, 170, -1, -1, 160, 180], the output should be
 solution(a) = [-1, 150, 160, 170, -1, -1, 180, 190]. 
-
-El método shift() elimina el primer elemento del array y lo retorna. Este método modifica la longitud del array. El método shift elimina el elemento en el índice cero y desplaza los valores consecutivos hacia abajo, devolviendo el valor eliminado. 
 */
 
 function solution(a) {
@@ -23,3 +21,6 @@ function solution(a) {
 
   return a;
 }
+
+
+/* El método shift() elimina el primer elemento del array y lo retorna. Este método modifica la longitud del array. El método shift elimina el elemento en el índice cero y desplaza los valores consecutivos hacia abajo, devolviendo el valor eliminado.  */

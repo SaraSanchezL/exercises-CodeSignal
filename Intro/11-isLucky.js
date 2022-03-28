@@ -5,6 +5,7 @@ Example
 
 For n = 1230, the output should be
 solution(n) = true;
+
 For n = 239017, the output should be
 solution(n) = false. */
 

@@ -12,9 +12,6 @@ solution(picture) = ["*****",
                       "*abc*",
                       "*ded*",
                       "*****"];
-
- El método unshift() agrega uno o más elementos al inicio del array, y devuelve la nueva longitud del array.
- El método fill() cambia todos los elementos en un arreglo por un valor estático, desde el índice start (por defecto 0) hasta el índice end (por defecto array.length). Devuelve el arreglo modificado.
  */
 
 function solution(picture) {
@@ -27,3 +24,7 @@ function solution(picture) {
 
 }
 
+
+
+/* El método unshift() agrega uno o más elementos al inicio del array, y devuelve la nueva longitud del array.
+ El método fill() cambia todos los elementos en un arreglo por un valor estático, desde el índice start (por defecto 0) hasta el índice end (por defecto array.length). Devuelve el arreglo modificado.  */
